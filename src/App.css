@@ -8,6 +8,38 @@ h1{
     color: tomato;
 }
 
+/*//////////////*/
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #f3f3f3;
+        overflow: hidden;
+    }
+    
+    li {
+        display: inline;
+    }
+    
+    li a {
+        display: inline-block;
+        color: #333;
+        text-decoration: none;
+        padding: 14px 20px;
+    }
+    
+    li a:hover {
+        background-color: #ddd;
+    }
+    
+    .active {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+
+
+/*////////////////////////////////*/
 /* Style the first letter of all <p> elements */
 p::first-letter {
     color: lightgray;       /* Set the color to light gray */
