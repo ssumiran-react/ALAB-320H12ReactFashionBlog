@@ -16,7 +16,9 @@ export default function Footer(){
         </ul>
         </div>
         </nav>
-        &#169;{copyRight}
+        <div className="copyRightDiv">
+          &#169;{copyRight}
+        </div>
       </div>
     )
 }

@@ -3,12 +3,12 @@ export default function Article(props){
 
   return (
     <>
-      <h1 style={{color: "gray"}}>{props.artDate}</h1>
-      <h1 className="articleTitle">{props.artTitle}</h1>
+      <h2 style={{color: "gray"}}>{props.artDate}</h2>
+      <h2 className="articleTitle">{props.artTitle}</h2>
       <img src={props.artImgUrl} alt={props.artTitle}/>
       <p>{props.artContent}</p>
-      <div style={{color: "red"}}>
-        <p><strong>Continues ...</strong></p>
+      <div style={{color: "red",textAlign: "right"}}>
+        <a ><strong>Continues ...</strong></a>
       </div>
     </>
         

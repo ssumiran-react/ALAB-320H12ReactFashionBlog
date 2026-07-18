@@ -1,0 +1,24 @@
+body {
+    min-width: 100vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h1{
+    color: tomato;
+}
+
+/* Style the first letter of all <p> elements */
+p::first-letter {
+    color: lightgray;       /* Set the color to light gray */
+    font-size: 3em;         /* Make it larger for drop cap effect */
+    font-weight: bold;      /* Make it bold */
+    float: left;            /* Float to the left for drop cap layout */
+    line-height: 1;         /* Adjust line height for alignment */
+    margin-right: 8px;      /* Space between drop cap and text */
+}    
+
+/* footer */
+.copyRightDiv{
+    color: lightgray;
+}
