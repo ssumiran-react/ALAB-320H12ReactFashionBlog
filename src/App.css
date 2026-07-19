@@ -37,10 +37,6 @@ li a {
     
 }
 
-li a:hover {
-    background-color: #ddd;
-}
-
 .active {
     background-color: #4CAF50;
     color: white;
