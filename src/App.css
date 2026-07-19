@@ -1,3 +1,4 @@
+
 body {
     min-width: 100vh;
     font-family: sans-serif;
@@ -8,38 +9,55 @@ h1{
     color: tomato;
 }
 
-/*//////////////*/
+/*//////////////
+
+*/
+.navbar{
+    
+    display: flex; /* Enable flexbox */
+    justify-content: space-between; /* Spread items evenly with space between */
+}    
 ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        background-color: #f3f3f3;
-        overflow: hidden;
-    }
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
     
-    li {
-        display: inline;
-    }
+li {
+    display: inline;
+}
     
-    li a {
-        display: inline-block;
-        color: #333;
-        text-decoration: none;
-        padding: 14px 20px;
-    }
+li a {
+    display: inline-block;
+    padding: 14px 20px;
+    color: lightgray; /* Set text color to lightgray */
+    text-decoration: underline; /* Add underline */
+    text-decoration-color: grey; /* Make underline grey */
     
-    li a:hover {
-        background-color: #ddd;
-    }
-    
-    .active {
-        background-color: #4CAF50;
-        color: white;
-    }
+}
+
+li a:hover {
+    background-color: #ddd;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
 
 
 
-/*////////////////////////////////*/
+/*////////////////////////////////
+margin on the bottom the <article> tags to be 4rem. Also, add a 1px solid border
+ in lightgray to the bottom of each one and give each padding on the bottom of 2rem.
+*/
+article {
+    margin-bottom: 4rem;              /* Space below each article */
+    border-bottom: 1px solid lightgray; /* Light gray bottom border */
+    padding-bottom: 2rem;             /* Space inside at the bottom */
+}
+
 /* Style the first letter of all <p> elements */
 p::first-letter {
     color: lightgray;       /* Set the color to light gray */
@@ -53,4 +71,10 @@ p::first-letter {
 /* footer */
 .copyRightDiv{
     color: lightgray;
+}
+
+.footbar a {
+    color: tomato; /* Set text color to tomato */
+    
+    text-decoration: none; /* Add underline */
 }

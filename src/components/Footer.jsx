@@ -13,6 +13,7 @@ export default function Footer(){
           <li className="foot-item"><a href="/the-catwalk" className="foot-link">The Catwalk</a></li>
           <li className="foot-item"><a href="/adwatch" className="foot-link">AdWatch</a></li>
           <li className="foot-item"><a href="/about" className="foot-link">About</a></li>
+          <li className="foot-item"><a href="/tips" className="foot-link">Tips</a></li>
         </ul>
         </div>
         </nav>
